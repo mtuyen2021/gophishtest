@@ -12,11 +12,10 @@ import (
 
 var validConfig = []byte(`{
 	"admin_server": {
-		"listen_url": "0.0.0.0:3333",
-		"use_tls": false,
+		"listen_url": "127.0.0.1:3333",
+		"use_tls": true,
 		"cert_path": "gophish_admin.crt",
-		"key_path": "gophish_admin.key",
-                "trusted_origins": "gophishtest-production.up.railway.app"
+		"key_path": "gophish_admin.key"
 	},
 	"phish_server": {
 		"listen_url": "0.0.0.0:8080",
