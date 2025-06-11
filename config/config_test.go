@@ -19,7 +19,7 @@ var validConfig = []byte(`{
                 "trusted_origins": "gophishtest-production.up.railway.app"
 	},
 	"phish_server": {
-		"listen_url": "0.0.0.0:3333",
+		"listen_url": "0.0.0.0:8080",
 		"use_tls": false,
 		"cert_path": "example.crt",
 		"key_path": "example.key"
